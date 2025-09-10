@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topsection{
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    top: 0;
+    height: 70vh;
+    
+}
+
+.bgimage img{
+filter: brightness(30%);
+height: 75vh;
+width: 100%;
+
+
+}
+.bgimage{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    color: rgb(12, 12, 12);
+    
+}
+.bgimage h2{
+    
+    font-size: 50px;
+    padding-top: 5rem;
+    position: absolute;
+    color: white;
+
+}
+.bgimage h3{
+   position: absolute;
+    font-size: 15px;
+    padding-top: 10rem;
+    color: white;
+}
+.bgimage h4{
+    position: absolute;
+    font-size: 28px;
+    color: white;
+    padding-top: 12.5rem ;
+}
+.bgimage p{
+    text-align: center;
+    margin: auto;
+    color: white;
+    position: absolute;
+    padding-top: 16rem;
+    
+    width: 550px;
+    font-size: 400;
+    font-weight: 500;
+
+
+}
+.button{
+    background-color: rgb(255, 20, 20);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 200;
+    
+    }
+
+#mail{
+    border: none;
+  border-radius: 6px;
+  padding: .5rem 5rem .5rem 0rem;
+  background-color: white;
+
+}
+.submitcoloum{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    padding-top: 21rem;
+    gap: 8px;
+    
+}
+.gamechanger h5{
+    
+    font-size: x-large;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+.threediv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+}
+.genpower{
+    background-color: aliceblue;
+    padding: 40px 40px 40px 40px;
+    
+    
+}
+.genpower h2{
+    color: black;
+
+}
+.genpower p{
+    color: gray;
+}
+
+
+
+
