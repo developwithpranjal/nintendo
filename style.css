@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Poppins", sans-serif;
 }
 .topsection{
     width: 100%;
@@ -39,7 +39,7 @@ width: 100%;
 .bgimage h3{
    position: absolute;
     font-size: 15px;
-    padding-top: 10rem;
+    padding-top: 8rem;
     color: white;
 }
 .bgimage h4{
@@ -55,7 +55,7 @@ width: 100%;
     position: absolute;
     padding-top: 16rem;
     
-    width: 550px;
+    width: 680px;
     font-size: 400;
     font-weight: 500;
 
@@ -83,7 +83,7 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     position:absolute;
-    padding-top: 21rem;
+    padding-top: 22rem;
     gap: 8px;
     
 }
@@ -295,7 +295,7 @@ h3{
     }
 
 h3{
-    padding-top: 70px;
+    padding-top: 36px;
     font-weight: 20px;
 }
 .launchbar{
@@ -329,8 +329,8 @@ h3{
         
     }
     h3{
-        padding-top: 30px;
-        margin-bottom: 25px;
+    margin-top: 5px;
+        margin-bottom: 33px;
     }
 .scoopbar{
       display: flex;
@@ -358,6 +358,7 @@ h3{
       margin-top: 12px;
       text-align: center;
       width: auto;
+      font-size: small;
       
     }
  .scoopbar h2{
