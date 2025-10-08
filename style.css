@@ -39,7 +39,7 @@ width: 100%;
 .bgimage h3{
    position: absolute;
     font-size: 15px;
-    padding-top: 8rem;
+    padding-top: 10rem;
     color: white;
 }
 .bgimage h4{
@@ -325,7 +325,7 @@ h3{
       margin-bottom: 25px;
     }
     hr{
-        border-top: 3px solid red;
+        border-top: 4px solid red;
         
     }
     h3{
@@ -347,11 +347,11 @@ h3{
       width: 400px;
       height: 200px;
       object-fit: cover;
-      /* padding-top: 4rem; */
+      
       background-color: rgb(212, 41, 41);
       border-radius: 10px 10px 0 0 ;
-      object-fit: cover;
-      /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
+      
+      
         }
 
     .scoopbar p {
@@ -378,7 +378,7 @@ h3{
     }
     .scoopsection{
         box-shadow: 0 0 10px rgba(0,0,0,0.05);
-;
+
     }
     .readbutton{
         background-color: red;
@@ -453,5 +453,124 @@ h3{
     margin: auto;
     
 }
+@media only screen and (max-width:360px){
+   .main{
+    width: 100%;
+    z-index: 0;
+   }
+   .bgimage img{
+width: 359px;
+/* filter: brightness(30%); */
+height: 80vh;
+/* width: 100%; */
 
 
+   }
+   .topsection img{
+    width: 100%;
+
+   }
+   .topsection{
+    width: 100%;
+    /* align-items: center; */
+   }
+   .bgimage h2{
+    font-size: small;
+    padding-top: 30px;
+    }
+    .topsection h3{
+        padding-top: 50px;
+    }
+    .topsection h4{
+    padding-top: 90px;
+    
+    
+    font-size: 10px;
+    }
+    .topsection p{
+        padding-top: 110px;
+        font-size: 10px;
+    }
+    .submitcoloum{
+        padding-top: 145px;
+    }
+    .button{
+        padding: 8px ;
+        font-size: 6px;
+    }
+    #mail{
+        padding: 8px;
+        font-size: 6px;
+    }
+
+    .threediv{
+    flex-direction: column;  
+    /* padding-left: 100px;  */
+    align-items: center;
+
+    
+
+}
+.threediv i{
+    /* align-items: center; */
+    padding-left: 120px;
+
+}
+table{
+
+margin-left:70px ;
+}
+.switchsection p{
+    width: 300px;
+}
+.threediv2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.launchbar{
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+        border-top: 4px solid red;
+        
+        
+    }
+.scoopbar{
+    flex-direction: column;
+}
+.scoopbar h2{
+    padding-left: 50px;
+    font-size: 15px;
+}
+.scoopbar p{
+    padding-left: 50px;
+}
+.scoopbar button{
+    margin-left: 120px;
+}
+
+.shopsection{
+    height: 150px;
+    position: absolute;
+    margin-top: 1000px;
+flex-direction: column;
+
+
+}
+.shopsection h2{
+    font-size: small;
+
+}
+.shopimages{
+    gap: 120px;
+    left: 0;
+    
+}
+.shopimages img{
+    height: 100px;
+    width: 100px;
+}
+}
