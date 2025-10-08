@@ -453,23 +453,20 @@ h3{
     margin: auto;
     
 }
-@media only screen and (max-width:360px){
+@media only screen and (max-width:768px){
    .main{
     width: 100%;
-    z-index: 0;
+   
    }
    .bgimage img{
 width: 359px;
 /* filter: brightness(30%); */
 height: 80vh;
-/* width: 100%; */
 
 
-   }
-   .topsection img{
-    width: 100%;
 
    }
+   
    .topsection{
     width: 100%;
     /* align-items: center; */
@@ -480,15 +477,17 @@ height: 80vh;
     }
     .topsection h3{
         padding-top: 50px;
+        font-size: small;
+        padding-left: 30px;
     }
     .topsection h4{
-    padding-top: 90px;
+    padding-top: 80px;
     
     
     font-size: 10px;
     }
     .topsection p{
-        padding-top: 110px;
+        padding-top: 100px;
         font-size: 10px;
     }
     .submitcoloum{
@@ -505,7 +504,7 @@ height: 80vh;
 
     .threediv{
     flex-direction: column;  
-    /* padding-left: 100px;  */
+    padding-left: 60px; 
     align-items: center;
 
     
@@ -518,31 +517,39 @@ height: 80vh;
 }
 table{
 
-margin-left:70px ;
+margin-left:50px ;
 }
 .switchsection p{
     width: 300px;
+    margin-left: 40px;
+    
+}
+.switchsection h2{
+    margin-left: 40px;
 }
 .threediv2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 60px;
 }
 
 .launchbar{
     flex-direction: column;
     align-items: center;
+    margin-left: 50px;
 }
-hr{
-        border-top: 4px solid red;
-        
-        
-    }
+ h3{
+    padding-left: 70px;
+}
+
+
 .scoopbar{
     flex-direction: column;
+    margin-left: 30px;
 }
 .scoopbar h2{
-    padding-left: 50px;
+    padding-left: 60px;
     font-size: 15px;
 }
 .scoopbar p{
@@ -556,7 +563,7 @@ hr{
     height: 150px;
     position: absolute;
     margin-top: 1000px;
-flex-direction: column;
+/* flex-direction: column; */
 
 
 }
