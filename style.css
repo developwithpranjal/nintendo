@@ -479,7 +479,7 @@ object-fit: cover;
     }
     .topsection h3{
         padding-top: 50px;
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 30px;
     }
     .topsection h4{
@@ -495,7 +495,7 @@ object-fit: cover;
         
     }
     .submitcoloum{
-        padding-top: 145px;
+        padding-top: 155px;
     }
     .button{
         padding: 8px ;
@@ -556,22 +556,23 @@ margin-left:50px ;
 }
 
 .scoopbar h2{
-    margin-left: -90px;
-    font-size: 16px;
-    /* width: 650px; */
+    margin-left: 50px;
+    font-size: 13px;
+    width: 300px;
     padding-bottom: 10px;
   
 }
 .scoopbar p{
     text-align: center;
-    padding-right: 90px;
-    width: 600px;
+    /* margin-left: 50x; */
+    padding-right: 180px;
+    width: 450px;
     margin: auto;
     
 
 }
 .scoopbar button{
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .shopsection{
