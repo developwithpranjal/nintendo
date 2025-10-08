@@ -454,7 +454,10 @@ h3{
     
 }
 @media  (max-width:768px){
-   .main{
+   
+   
+   }
+    .main{
     z-index: 0;
    }
 
@@ -551,8 +554,9 @@ margin-left:50px ;
 
 .scoopbar{
     flex-direction: column;
-    padding-left: 80px;
+    margin-left: 190px;
     /* align-items: center; */
+    width: fit-content;
 }
 
 .scoopbar h2{
@@ -564,15 +568,15 @@ margin-left:50px ;
 }
 .scoopbar p{
     text-align: center;
-    /* margin-left: 50x; */
-    padding-right: 180px;
-    width: 450px;
+    /* margin-left: 100px; */
+    padding-right: 120px;
+    width: 500px;
     margin: auto;
     
 
 }
 .scoopbar button{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .shopsection{
