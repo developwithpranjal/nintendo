@@ -554,7 +554,7 @@ margin-left:50px ;
 
 .scoopbar{
     flex-direction: column;
-    margin-left: 190px;
+    margin-left: 100px;
     /* align-items: center; */
     width: fit-content;
 }
