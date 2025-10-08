@@ -462,7 +462,7 @@ h3{
    .bgimage img{
     
 width: 100%;
-height: 60vh;
+height: 45vh;
 object-fit: cover;
 
 
@@ -514,7 +514,7 @@ object-fit: cover;
 }
 .threediv i{
     align-items: center;
-    /* padding-left: 200px; */
+    padding-left: 200px;
 
 }
 table{
@@ -549,19 +549,22 @@ margin-left:50px ;
 
 .scoopbar{
     flex-direction: column;
-    padding-left: 200px;
+    padding-left: 120px;
     /* align-items: center; */
 }
 
 .scoopbar h2{
     padding-right: 80px;
     font-size: 16px;
+    width: 650px;
+    padding-bottom: 10px;
 }
 .scoopbar p{
     text-align: center;
     padding-right: 90px;
-    width: 450px;
+    width: 600px;
     margin: auto;
+    
 
 }
 .scoopbar button{
@@ -569,11 +572,12 @@ margin-left:50px ;
 }
 
 .shopsection{
-    height: 150px;
+    height: 300px;
     width: 100%;
-    position: absolute;
-    margin-top: 850px;
-/* flex-direction: column; */
+    position: relative;
+    margin-top: 800px;
+    flex-direction: column-reverse;
+
 
 
 }
