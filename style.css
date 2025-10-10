@@ -565,14 +565,15 @@ hr{
 }
  h3{
     padding-left: 70px;
-    width: 400px;
+    width: 300px;
 }
 
 
 .scoopbar{
+    
     padding-top: 600px;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 30px;
     
     justify-content: center;
     
@@ -612,7 +613,7 @@ hr{
     width: 100%;
     position: relative;
     margin-top: 900px;
-    flex-direction: column-reverse;
+    
 
 
 
