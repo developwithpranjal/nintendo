@@ -453,7 +453,7 @@ h3{
     margin: auto;
     
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:700px){
    
    
    
@@ -506,12 +506,8 @@ object-fit: cover;
         padding: 8px;
         font-size: 6px;
     }
-}
-    @media only screen and (max-width: 576px){
-        .bgimage{
-            width: 100%;
-        }
-    }
+
+    
 
     .threediv{
     flex-direction: column;  
@@ -552,6 +548,7 @@ width: 400px;
     align-items: center;
     margin-left: 50px;
     /* width: 500px; */
+    flex-wrap: wrap;
 }
 hr{
     width: 100%;
@@ -566,9 +563,10 @@ hr{
     padding-top: 600px;
     flex-direction: column;
     margin-left: 100px;
-    align-items: center;
+    /* align-items: center; */
     /* width: max-content; */
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .scoopbar h2{
@@ -619,5 +617,6 @@ hr{
 .shopimages img{
     height: 100px;
     width: 100px;
+    
 }
 }
