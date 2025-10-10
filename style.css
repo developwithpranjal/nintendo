@@ -563,7 +563,7 @@ hr{
 
 
 .scoopbar{
-    padding-top: 550px;
+    padding-top: 600px;
     flex-direction: column;
     margin-left: 100px;
     
@@ -571,28 +571,33 @@ hr{
     
 }
 .scoopbar img{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
 }
 
 .scoopbar h2{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 13px;
     width: 300px;
     padding-bottom: 10px;
   
 }
 .scoopbar p{
+    
+    /* margin-left: 20px; */
+    /* padding-right: 50px; */
+    padding-bottom: 20px;
     text-align: center;
-    /* margin-left: 100px; */
-    padding-right: 50px;
-    width: 250px;
+    /* align-items: center; */
+    width: 300px;
     margin: auto;
     
 
 }
 .scoopbar button{
-    margin-left: 150px;
+    margin-left: 100px;
+    /* align-items: center; */
+    /* width: 100%; */
 }
 
 .shopsection{
