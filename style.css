@@ -506,6 +506,12 @@ object-fit: cover;
         padding: 8px;
         font-size: 6px;
     }
+}
+    @media only screen and (max-width: 576px){
+        .bgimage{
+            width: 100%;
+        }
+    }
 
     .threediv{
     flex-direction: column;  
