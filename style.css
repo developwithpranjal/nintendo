@@ -458,7 +458,7 @@ h3{
    
    
     .main{
-    z-index: 0;
+    z-index: 1;
    }
 
    
@@ -531,8 +531,9 @@ width: 250px;
 overflow: hidden;
 }
 .switchsection p{
-    width: 400px;
-    padding-left: 70px;
+    width: 300px;
+    margin: auto;
+    padding-left: 40px;
     
 }
 .switchsection h2{
