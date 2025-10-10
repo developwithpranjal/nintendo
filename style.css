@@ -548,7 +548,7 @@ width: 400px;
     align-items: center;
     margin-left: 50px;
     /* width: 500px; */
-    flex-wrap: wrap;
+    
 }
 hr{
     width: 100%;
@@ -566,7 +566,7 @@ hr{
     /* align-items: center; */
     /* width: max-content; */
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 .scoopbar h2{
