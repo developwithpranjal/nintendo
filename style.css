@@ -491,8 +491,8 @@ object-fit: cover;
     .topsection p{
         padding-top: 110px;
         font-size: 8px;
-        /* width: 450px; */
-        width: 400px;
+        width: 450px;
+        /* width: 400px; */
         
     }
     .submitcoloum{
@@ -520,7 +520,7 @@ object-fit: cover;
 }
 table{
 
-/* margin-left:50px ; */
+margin-left:50px ;
 width: 400px;
 }
 .switchsection p{
@@ -537,7 +537,7 @@ width: 400px;
     align-items: center;
     justify-content: center;
     margin-left: 80px;
-    width: 500px;
+    /* width: 500px; */
 }
 
 
@@ -545,7 +545,7 @@ width: 400px;
     flex-direction: column;
     align-items: center;
     margin-left: 50px;
-    width: 500px;
+    /* width: 500px; */
 }
 hr{
     width: 100%;
