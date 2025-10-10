@@ -491,7 +491,8 @@ object-fit: cover;
     .topsection p{
         padding-top: 110px;
         font-size: 8px;
-        width: 450px;
+        width: 200px;
+        margin: auto;
         /* width: 400px; */
         
     }
@@ -499,12 +500,14 @@ object-fit: cover;
         padding-top: 155px;
     }
     .button{
-        padding: 8px ;
+        padding: 5px 8px ;
         font-size: 6px;
+        border-radius: 3px;
     }
     #mail{
-        padding: 8px;
+        padding:5px 8px;
         font-size: 6px;
+        border-radius: 3px;
     }
 
     
