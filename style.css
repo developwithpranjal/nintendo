@@ -483,13 +483,13 @@ object-fit: cover;
         padding-left: 30px;
     }
     .topsection h4{
-    padding-top: 95px;
+    padding-top: 110px;
     
     
     font-size: 10px;
     }
     .topsection p{
-        padding-top: 120px;
+        padding-top: 140px;
         font-size: 8px;
         width: 200px;
         margin: auto;
@@ -497,7 +497,7 @@ object-fit: cover;
         
     }
     .submitcoloum{
-        padding-top: 190px;
+        padding-top: 210px;
     }
     .button{
         padding: 5px 8px ;
@@ -514,19 +514,19 @@ object-fit: cover;
 
     .threediv{
     flex-direction: column;  
-    padding-left: 60px; 
+    /* padding-left: 60px;  */
     align-items: center;
 
 }
 .threediv i{
     align-items: center;
-    padding-left: 150px;
+    padding-left: 250px;
 
 }
 table{
-
-margin-left:20px ;
-margin-right: 20px;
+align-items: center;
+/* margin-left:20px ; */
+/* margin-right: 20px; */
 width: 250px;
 overflow: hidden;
 }
@@ -542,14 +542,17 @@ overflow: hidden;
 }
 h3{
     padding-right: 20px;
+    
+    
     text-align: center;
+    
 }
 .threediv2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 60px;
-    /* width: 500px; */
+    /* margin-left: 60px; */
+   
 }
 
 
