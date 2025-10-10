@@ -525,8 +525,10 @@ object-fit: cover;
 }
 table{
 
-margin-left:50px ;
-width: 300px;
+margin-left:20px ;
+margin-right: 20px;
+width: 250px;
+overflow: hidden;
 }
 .switchsection p{
     width: 400px;
