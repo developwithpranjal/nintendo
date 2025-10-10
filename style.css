@@ -456,7 +456,7 @@ h3{
 @media only screen and (max-width:768px){
    
    
-   }
+   
     .main{
     z-index: 0;
    }
@@ -520,7 +520,7 @@ object-fit: cover;
 table{
 
 margin-left:50px ;
-width: 600px;
+width: 400px;
 }
 .switchsection p{
     width: 400px;
@@ -609,4 +609,5 @@ hr{
 .shopimages img{
     height: 100px;
     width: 100px;
+}
 }
