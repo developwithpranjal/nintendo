@@ -563,12 +563,16 @@ hr{
 
 
 .scoopbar{
-    padding-top: 600px;
+    padding-top: 550px;
     flex-direction: column;
     margin-left: 100px;
     
     justify-content: center;
     
+}
+.scoopbar img{
+    width: 200px;
+    height: 100px;
 }
 
 .scoopbar h2{
