@@ -464,7 +464,7 @@ h3{
    
    .bgimage img{
     
-width: 100%;
+width: 768px;
 height: 45vh;
 object-fit: cover;
 }
@@ -490,7 +490,7 @@ object-fit: cover;
     }
     .topsection p{
         padding-top: 110px;
-        font-size: 8px;
+        font-size: 10px;
         width: 450px;
         
     }
