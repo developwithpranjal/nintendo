@@ -497,7 +497,7 @@ object-fit: cover;
         
     }
     .submitcoloum{
-        padding-top: 155px;
+        padding-top: 170px;
     }
     .button{
         padding: 5px 8px ;
@@ -566,8 +566,7 @@ hr{
     padding-top: 600px;
     flex-direction: column;
     margin-left: 100px;
-    /* align-items: center; */
-    /* width: max-content; */
+    
     justify-content: center;
     
 }
@@ -582,8 +581,8 @@ hr{
 .scoopbar p{
     text-align: center;
     /* margin-left: 100px; */
-    padding-right: 120px;
-    width: 500px;
+    padding-right: 50px;
+    width: 250px;
     margin: auto;
     
 
